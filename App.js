@@ -10,9 +10,10 @@ export default function App() {
   return (
     <>
     <View style={styles.container}>
-      <Text style ={styles.header}>Lunch Spot
+      <Text style ={styles.header}>
+        Lunch Spot
       </Text>
-      <RestList/>
+      <RestList selectRestaurant={selectRestaurant} />
       <StatusBar style="auto" />
     </View>
       <Tray setSelectRestaurant={setSelectRestaurant}/>
